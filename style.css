@@ -5,4 +5,42 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+.post {
+    max-width: 400px;
+    margin: .65rem  3rem;
+    background-color: aliceblue;
+}
+
+.post-header p {
+    margin-left: .65rem;
+}
+i.fa-solid {
+    float: right;
+    position: relative;
+    bottom: 1.4rem; 
+    margin-right: .65rem;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.post-body ul {
+    display: flex;
+    margin-top: 1.2rem;
+    list-style: none;
+    margin-left: -2rem;
+}
+
+
+.fa-bookmark {
+    margin-left: 15rem;
+}
+
+.post-body p {
+    margin-left: .65rem;
 }
